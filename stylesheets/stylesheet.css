@@ -23,7 +23,7 @@ body { background: url(/images/retina_wood.png); }
 	box-shadow: 0px 0px 20px 0px #383838;
 }
 .cardinfo { text-align: center; }
-.cardinfo h1 { padding: 150px 0 0 0; font-family: 'vegur_lightregular', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 3em; text-shadow: 0px 1px 1px #fff; filter: progid:DXImageTransform.Microsoft.Shadow(color=#ffffff,direction=145);}
+.cardinfo h1 { padding: 150px 0 0 0; font-family: 'vegur_lightregular', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 3em; text-shadow: 0px 1px 1px #fff; }
 .viernullvier h1 { padding: 130px 0 0 0; }
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
