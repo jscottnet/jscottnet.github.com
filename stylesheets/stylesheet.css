@@ -32,6 +32,6 @@ only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
-	body { background-image: url('/images/retina_wood_@2x.png'); }
-	#card { background-image: url('/images/linen_@2x.png'); }
+	body { background-image: url('/images/retina_wood_@2X.png'); }
+	#card { background-image: url('/images/linen_@2X.png'); }
 }
