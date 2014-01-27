@@ -1,0 +1,387 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0084)file://C:\WINDOWS\Temporary%20Internet%20Files\Content.IE5\U1Z21BCU\Advanced2.12.htm -->
+<!-- saved from url=(0022)/web/20111122054728/http://internet.e-mail --><!-- saved from url=(0047)/web/20111122054728/http://www.halhigdon.com/marathon/train12e.html --><!-- saved from url=(0022)/web/20111122054728/http://internet.e-mail --><HTML><HEAD>
+
+<script type="text/javascript" src="/static/js/analytics.js" ></script>
+<link type="text/css" rel="stylesheet" href="/static/css/banner-styles.css"/>
+
+
+
+<TITLE>Hal Higdon's MARATHON TRAINING GUIDE</TITLE><!-- saved from url=(0047)/web/20111122054728/http://www.halhigdon.com/marathon/train12e.html --><!--This file created 4:02 PM  6/25/00 by Claris Home Page version 3.0-->
+<META content="MSHTML 5.50.4207.2601" name=GENERATOR><X-CLARIS-WINDOW TOP="0" 
+BOTTOM="438" LEFT="0" RIGHT="788"><X-CLARIS-TAGVIEW MODE="minimal">
+<META http-equiv=Content-Type content="text/html; charset=windows-1252"><!--This file created 9:13 PM  6/9/99 by Claris Home Page version 3.0--></HEAD>
+<BODY vLink=#dd0000 bgColor=#ffffff>
+<!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script> if (window.archive_analytics) { window.archive_analytics.values['server_name']="wwwb-app17.us.archive.org";}; </script>
+
+<script type="text/javascript" src="/static/js/disclaim-element.js" ></script>
+<script type="text/javascript" src="/static/js/graph-calc.js" ></script>
+<script type="text/javascript" src="/static/jflot/jquery.min.js" ></script>
+<script type="text/javascript">
+//<![CDATA[
+var firstDate = 820454400000;
+var lastDate = 1420070399999;
+var wbPrefix = "/web/";
+var wbCurrentUrl = "http:\/\/www.halhigdon.com\/marathon\/advanced2\/train7e.htm";
+
+var curYear = -1;
+var curMonth = -1;
+var yearCount = 18;
+var firstYear = 1996;
+var imgWidth = 475;
+var yearImgWidth = 25;
+var monthImgWidth = 2;
+var trackerVal = "none";
+var displayDay = "22";
+var displayMonth = "Nov";
+var displayYear = "2011";
+var prettyMonths = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+function showTrackers(val) {
+	if(val == trackerVal) {
+		return;
+	}
+	if(val == "inline") {
+		document.getElementById("displayYearEl").style.color = "#ec008c";
+		document.getElementById("displayMonthEl").style.color = "#ec008c";
+		document.getElementById("displayDayEl").style.color = "#ec008c";		
+	} else {
+		document.getElementById("displayYearEl").innerHTML = displayYear;
+		document.getElementById("displayYearEl").style.color = "#ff0";
+		document.getElementById("displayMonthEl").innerHTML = displayMonth;
+		document.getElementById("displayMonthEl").style.color = "#ff0";
+		document.getElementById("displayDayEl").innerHTML = displayDay;
+		document.getElementById("displayDayEl").style.color = "#ff0";
+	}
+   document.getElementById("wbMouseTrackYearImg").style.display = val;
+   document.getElementById("wbMouseTrackMonthImg").style.display = val;
+   trackerVal = val;
+}
+function getElementX2(obj) {
+	var thing = jQuery(obj);
+	if((thing == undefined) 
+			|| (typeof thing == "undefined") 
+			|| (typeof thing.offset == "undefined")) {
+		return getElementX(obj);
+	}
+	return Math.round(thing.offset().left);
+}
+function trackMouseMove(event,element) {
+
+   var eventX = getEventX(event);
+   var elementX = getElementX2(element);
+   var xOff = eventX - elementX;
+	if(xOff < 0) {
+		xOff = 0;
+	} else if(xOff > imgWidth) {
+		xOff = imgWidth;
+	}
+   var monthOff = xOff % yearImgWidth;
+
+   var year = Math.floor(xOff / yearImgWidth);
+	var yearStart = year * yearImgWidth;
+   var monthOfYear = Math.floor(monthOff / monthImgWidth);
+   if(monthOfYear > 11) {
+       monthOfYear = 11;
+   }
+   // 1 extra border pixel at the left edge of the year:
+   var month = (year * 12) + monthOfYear;
+   var day = 1;
+	if(monthOff % 2 == 1) {
+		day = 15;
+	}
+	var dateString = 
+		zeroPad(year + firstYear) + 
+		zeroPad(monthOfYear+1,2) +
+		zeroPad(day,2) + "000000";
+
+	var monthString = prettyMonths[monthOfYear];
+	document.getElementById("displayYearEl").innerHTML = year + 1996;
+	document.getElementById("displayMonthEl").innerHTML = monthString;
+	// looks too jarring when it changes..
+	//document.getElementById("displayDayEl").innerHTML = zeroPad(day,2);
+
+	var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
+	document.getElementById('wm-graph-anchor').href = url;
+
+   //document.getElementById("wmtbURL").value="evX("+eventX+") elX("+elementX+") xO("+xOff+") y("+year+") m("+month+") monthOff("+monthOff+") DS("+dateString+") Moy("+monthOfYear+") ms("+monthString+")";
+   if(curYear != year) {
+       var yrOff = year * yearImgWidth;
+       document.getElementById("wbMouseTrackYearImg").style.left = yrOff + "px";
+       curYear = year;
+   }
+   if(curMonth != month) {
+       var mtOff = year + (month * monthImgWidth) + 1;
+       document.getElementById("wbMouseTrackMonthImg").style.left = mtOff + "px";
+       curMonth = month;
+   }
+}
+//]]>
+</script>
+
+<style type="text/css">body{margin-top:0!important;padding-top:0!important;min-width:800px!important;}#wm-ipp a:hover{text-decoration:underline!important;}</style>
+<div id="wm-ipp" lang="en" class="__wb_banner_div" style="display:none; position:relative;padding:0 5px;min-height:70px;min-width:800px">
+
+
+<div id="wm-ipp-inside" class="__wb_banner_div" style="position:fixed;padding:0!important;margin:0!important;width:97%;min-width:780px;border:5px solid #000;border-top:none;background-image:url(/static/images/toolbar/wm_tb_bk_trns.png);text-align:center;-moz-box-shadow:1px 1px 3px #333;-webkit-box-shadow:1px 1px 3px #333;box-shadow:1px 1px 3px #333;font-size:11px!important;font-family:'Lucida Grande','Arial',sans-serif!important;">
+   <table style="border-collapse:collapse;margin:0;padding:0;width:100%;"><tbody><tr>
+   <td style="padding:10px;vertical-align:top;min-width:110px;">
+   <a href="/web/" title="Wayback Machine home page" style="background-color:transparent;border:none;"><img src="/static/images/toolbar/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0"/></a>
+   </td>
+   <td style="padding:0!important;text-align:center;vertical-align:top;width:100%;">
+
+       <table style="border-collapse:collapse;margin:0 auto;padding:0;width:570px;"><tbody><tr>
+       <td style="padding:3px 0;" colspan="2">
+       <form target="_top" method="get" action="/web/form-submit.jsp" name="wmtb" id="wmtb" style="margin:0!important;padding:0!important;"><input type="text" name="url" id="wmtbURL" value="http://www.halhigdon.com/marathon/advanced2/train7e.htm" style="width:400px;font-size:11px;font-family:'Lucida Grande','Arial',sans-serif;" onfocus="javascript:this.focus();this.select();" /><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20111122054728" /><input type="submit" value="Go" style="font-size:11px;font-family:'Lucida Grande','Arial',sans-serif;margin-left:5px;width: inherit !important" /><span id="wm_tb_options" style="display:block;"></span></form>
+       </td>
+       <td style="vertical-align:bottom;padding:5px 0 0 0!important;" rowspan="2">
+           <table style="border-collapse:collapse;width:110px;color:#99a;font-family:'Helvetica','Lucida Grande','Arial',sans-serif;"><tbody>
+			
+           <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+           <tr style="width:110px;height:16px;font-size:10px!important;">
+           	<td style="padding-right:9px;font-size:11px!important;font-weight:bold;text-transform:uppercase;text-align:right;white-space:nowrap;overflow:visible;" nowrap="nowrap">
+               
+		                <a href="/web/20100226145547/http://www.halhigdon.com/marathon/advanced2/train7e.htm" style="text-decoration:none;color:#33f;font-weight:bold;background-color:transparent;border:none;" title="26 Feb 2010"><strong>FEB</strong></a>
+		                
+               </td>
+               <td id="displayMonthEl" style="background:#000;color:#ff0;font-size:11px!important;font-weight:bold;text-transform:uppercase;width:34px;height:15px;padding-top:1px;text-align:center;" title="You are here: 5:47:28 Nov 22, 2011">NOV</td>
+				<td style="padding-left:9px;font-size:11px!important;font-weight:bold;text-transform:uppercase;white-space:nowrap;overflow:visible;" nowrap="nowrap">
+               
+                       Dec
+                       
+               </td>
+           </tr>
+
+           <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+           <tr>
+               <td style="padding-right:9px;white-space:nowrap;overflow:visible;text-align:right!important;vertical-align:middle!important;" nowrap="nowrap">
+               
+		                <a href="/web/20100226145547/http://www.halhigdon.com/marathon/advanced2/train7e.htm" title="14:55:47 Feb 26, 2010" style="background-color:transparent;border:none;"><img src="/static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a>
+		                
+               </td>
+               <td id="displayDayEl" style="background:#000;color:#ff0;width:34px;height:24px;padding:2px 0 0 0;text-align:center;font-size:24px;font-weight: bold;" title="You are here: 5:47:28 Nov 22, 2011">22</td>
+				<td style="padding-left:9px;white-space:nowrap;overflow:visible;text-align:left!important;vertical-align:middle!important;" nowrap="nowrap">
+               
+                       <img src="/static/images/toolbar/wm_tb_nxt_off.png" alt="Next capture" width="14" height="16" border="0"/>
+                       
+			    </td>
+           </tr>
+
+           <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+           <tr style="width:110px;height:13px;font-size:9px!important;">
+				<td style="padding-right:9px;font-size:11px!important;font-weight: bold;text-align:right;white-space:nowrap;overflow:visible;" nowrap="nowrap">
+               
+		                <a href="/web/20100226145547/http://www.halhigdon.com/marathon/advanced2/train7e.htm" style="text-decoration:none;color:#33f;font-weight:bold;background-color:transparent;border:none;" title="26 Feb 2010"><strong>2010</strong></a>
+		                
+               </td>
+               <td id="displayYearEl" style="background:#000;color:#ff0;font-size:11px!important;font-weight: bold;padding-top:1px;width:34px;height:13px;text-align:center;" title="You are here: 5:47:28 Nov 22, 2011">2011</td>
+				<td style="padding-left:9px;font-size:11px!important;font-weight: bold;white-space:nowrap;overflow:visible;" nowrap="nowrap">
+               
+                       2012
+                       
+				</td>
+           </tr>
+           </tbody></table>
+       </td>
+
+       </tr>
+       <tr>
+       <td style="vertical-align:middle;padding:0!important;">
+           <a href="/web/20111122054728*/http://www.halhigdon.com/marathon/advanced2/train7e.htm" style="color:#33f;font-size:11px;font-weight:bold;background-color:transparent;border:none;" title="See a list of every capture for this URL"><strong>79 captures</strong></a>
+           <div class="__wb_banner_div" style="margin:0!important;padding:0!important;color:#666;font-size:9px;padding-top:2px!important;white-space:nowrap;" title="Timespan for captures of this URL">10 Jun 01 - 22 Nov 11</div>
+       </td>
+       <td style="padding:0!important;">
+       <a style="position:relative; white-space:nowrap; width:475px;height:27px;" href="" id="wm-graph-anchor">
+       <div class="__wb_banner_div" id="wm-ipp-sparkline" style="position:relative; white-space:nowrap; width:475px;height:27px;background-color:#fff;cursor:pointer;border-right:1px solid #ccc;" title="Explore captures for this URL">
+			<img id="sparklineImgId" style="position:absolute; z-index:9012; top:0px; left:0px;"
+				onmouseover="showTrackers('inline');" 
+				onmouseout="showTrackers('none');"
+				onmousemove="trackMouseMove(event,this)"
+				alt="sparklines"
+				width="475"
+				height="27"
+				border="0"
+				src="/web/jsp/graph.jsp?graphdata=475_27_1996:-1:000000000000_1997:-1:000000000000_1998:-1:000000000000_1999:-1:000000000000_2000:-1:000000000000_2001:-1:000001010010_2002:-1:000101010101_2003:-1:000101010100_2004:-1:010101010101_2005:-1:011100020002_2006:-1:11b100000203_2007:-1:710011031101_2008:-1:010110271001_2009:-1:010000001000_2010:-1:110000000000_2011:10:000000000010_2012:-1:000000000000_2013:-1:000000000000_2014:-1:000000000000"></img>
+			<img id="wbMouseTrackYearImg" 
+				style="display:none; position:absolute; z-index:9010;"
+				width="25" 
+				height="27"
+				border="0"
+				src="/static/images/toolbar/transp-yellow-pixel.png"></img>
+			<img id="wbMouseTrackMonthImg"
+				style="display:none; position:absolute; z-index:9011; " 
+				width="2"
+				height="27" 
+				border="0"
+				src="/static/images/toolbar/transp-red-pixel.png"></img>
+       </div>
+		</a>
+
+       </td>
+       </tr></tbody></table>
+   </td>
+   <td style="text-align:right;padding:5px;width:65px;font-size:11px!important;">
+       <a href="javascript:;" onclick="document.getElementById('wm-ipp').style.display='none';" style="display:block;padding-right:18px;background:url(/static/images/toolbar/wm_tb_close.png) no-repeat 100% 0;color:#33f;font-family:'Lucida Grande','Arial',sans-serif;margin-bottom:23px;background-color:transparent;border:none;" title="Close the toolbar">Close</a>
+       <a href="http://faq.web.archive.org/" style="display:block;padding-right:18px;background:url(/static/images/toolbar/wm_tb_help.png) no-repeat 100% 0;color:#33f;font-family:'Lucida Grande','Arial',sans-serif;background-color:transparent;border:none;" title="Get some help using the Wayback Machine">Help</a>
+   </td>
+   </tr></tbody></table>
+
+</div>
+</div>
+<script type="text/javascript">
+ var wmDisclaimBanner = document.getElementById("wm-ipp");
+ if(wmDisclaimBanner != null) {
+   disclaimElement(wmDisclaimBanner);
+ }
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+
+<CENTER>
+<TABLE width="90%" border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <P><FONT color=#990033 size=+2>Hal Higdon's</FONT><FONT 
+      size=+2><BR></FONT><FONT color=#000066 size=+3><B>MARATHON<BR>TRAINING 
+      GUIDE</B></FONT></P>
+      <P></P></TD>
+    <TD vAlign=bottom>
+      <P>
+      <TABLE cellPadding=15 border=1>
+        <TBODY>
+        <TR>
+          <TD>
+            <CENTER>
+                <FONT color=#004c00 size=+3>Week 7</FONT> 
+                <P><FONT color=#004c00 
+        size=+2>Advanced-II</FONT></P></CENTER></TD></TR></TBODY></TABLE>
+      <P></P></TD></TR></TBODY></TABLE></CENTER>
+<BLOCKQUOTE><FONT color=#000000 size=+1><B>Monday:</B></FONT><FONT 
+  color=#990033> </FONT>Three miles at an easy pace. These easy rest days might 
+  offer a good time to do some extra <A 
+  href="/web/20111122054728/http://www.halhigdon.com/15Ktraining/Stretch.htm">stretching</A>, 
+  particularly after Sunday's long run. <FONT color=#000000>Also, don't be 
+  afraid to program in an extra day of rest--any day of the week--if you feel 
+  your body needs it. Don't be a slave to any training schedule, this one or any 
+  other. Having said that, if you take <I>too many</I> days off you will 
+  compromise your training program. Balance is essential in any program for 
+  success. You don't want to do too much; you don't want to do too little. 
+  </FONT>
+  <P><FONT color=#000000 size=+1><B>Tuesday:</B></FONT><FONT color=#990033> 
+  </FONT>Speed training. Head to the hills again: 5 x Hill. If you warm up well, 
+  you'll be able to run uphill with greater efficiency. To maintain good form, 
+  focus your eyes on the top of the hill. Pump your arms and lift your knees to 
+  develop your quadriceps muscles. You'll need strong quads in the closing miles 
+  of the marathon.</P>
+  <P><FONT color=#000000 size=+1><B>Wednesday:</B></FONT><FONT color=#990033> 
+  </FONT>Four miles at a comfortable pace. Yes, that's one mile further for this 
+  day than I&nbsp;have asked you to run during the first six weeks of my 
+  marathon training program. It's all part of a gradual buildup to more mileage. 
+  "Gradual"&nbsp;is the operative word in the previous sentence. Other than more 
+  mileage, another reason I&nbsp;schedule changes in distance is for variety, so 
+  you won't be running the same distances day after day after week after week. 
+  Since experienced runners such as you often have set courses for different 
+  distances, this may even force you to select another route for your 
+  run:&nbsp;Course A vs. Course B. It's a mind thing. The difference between 
+  doing 3 and 4 miles may also result in an almost imperceptible pace change, 
+  which is also good. Plus, you burn an extra 100 calories. Remember:&nbsp;The 
+  pace should remain easy.</P>
+  <P><FONT color=#000000 size=+1><B>Thursday:</B></FONT><FONT color=#990033> 
+  </FONT>The tempo run today increases to 40 minutes. Lead into it with 10-15 
+  minutes of running, then gradually accelerate to a peak about 30 minutes into 
+  your workout before coasting home. Continue to think "somewhat slower than 
+  10-K pace," but the entire middle part of the workout need not be that 
+  fast.</P>
+  <P><FONT color=#000000 size=+1><B>Friday:</B></FONT><FONT color=#0066ff 
+  size=+1> </FONT>Rest today will provide just that extra dose of recovery 
+  necessary for you to have a good weekend of workouts. Remember, the focus on 
+  this training program is <I>quality</I> as well as quantity. You can't achieve 
+  quality in your workouts unless you come into the days you run hard well 
+  rested. You'll be able to accomplish tomorrow's pace workout much more 
+  successfully if you are rested and ready. This means getting a good night's 
+  sleep tonight too. Social considerations aside, you probably don't want to 
+  hang out all night at the bars, then be forced to get up the next morning and 
+  train hard. What's important in life to you?&nbsp;Make that decision and 
+  follow up on it.</P>
+  <P><FONT color=#000000 size=+1><B>Saturday:</B></FONT> Pace training day. 
+  Eight miles at marathon race pace. Assuming you have a watch that allows you 
+  to record splits as you run, write them on a piece of paper when you finish. 
+  How successful were you at maintaining race pace? If you're plus or minus more 
+  than 15 seconds off race pace, you may need to focus your attention more 
+  during these pace workouts. (If you're running a hilly course or under adverse 
+  weather conditions, you may need to make an allowance for variations--but that 
+  will be true in the marathon itself.)</P>
+  <P><FONT color=#000000 size=+1><B>Sunday:</B></FONT> Run 16 miles in today's 
+  long run. Remember to run at a pace 45 to 90 seconds slower than the race pace 
+  you ran on Saturday. Running long workouts too close to race pace is a 
+  <I>major</I> training error. Be conservative in your approach to training, and 
+  you're more likely to succeed. Before we end this week of instructions, let's 
+  talk briefly about calorie burn. Running will help you maintain or lose 
+  weight. You burn the same number of calories (about 100) walking a mile as you 
+  do running a mile. That seems unfair, but calorie burn is related to 
+  foot-pounds: how many pounds you push over so many feet. Since you lose 1 
+  pound for every 3,600 calories burned, theoretically by running 40 or so miles 
+  this week you will have lost the equivalent of just more than 1 pound compared 
+  to if you hadn't run. That assumes your eating habits didn't change. You can 
+  lose weight faster by combining diet and exercise, which is the best way to 
+  lose weight as well as keep it off.</P>
+  <P>&nbsp;</P>
+  <P><FONT color=#ff0000 size=+1><B><U><font color="#000000">Running Tips:</font></U></B></FONT> 
+    Marathoners need to learn the value of strength. If you plan to win the marathon, 
+    running is not enough. Most top runners head to the gym two or three times 
+    a week to pump iron. That's good advice for anybody. Machines and barbells 
+    work for the elite, but you can stay in shape with push-ups and sit-ups in 
+    your own front room. Then you can flex your muscles while crossing the finish 
+    line on marathon day.</P>
+  <P><FONT color=#ff0000 size=+1><B><U><font color="#000000">How to Improve:</font></U></B> 
+    </FONT><I>Hal Higdon's Smart Running</I> is a collections of questions and 
+    answers from his on-line <I>Ask The Expert</I> column. It covers everything 
+    you wanted to know about running, but were afraid to ask. To order an autographed 
+    copy of this and other books by <I>Runner's World's</I> best writer go to 
+    <A 
+  href="/web/20111122054728/http://www.halhigdon.com/books/bookorder.htm"><U>Books by Hal Higdon</U><FONT color=#0033ff><U>.</U></FONT></A></P>
+  <P>&nbsp;</P></BLOCKQUOTE>
+<P><FONT size=-1><B>Copyright © 2001 by Hal Higdon. All rights 
+reserved.</B></FONT></P>
+<CENTER><FONT color=#990033>
+<HR SIZE=4>
+</FONT>
+  <P><A href="/web/20111122054728/http://www.halhigdon.com/marathon/advancedint.htm"><FONT 
+color=#990033>Advanced Training Program</FONT></A></P>
+<P><A href="/web/20111122054728/http://www.halhigdon.com/marathon/Mar00index.htm"><FONT 
+color=#990033><B>Hal Higdon's Marathon Training Guide</B></FONT></A> </P><!-- #BeginLibraryItem "/Library/Home Page.lbi" -->
+<DIV align=center><SPAN style="FONT-SIZE: 14pt; mso-bidi-font-size: 10.0pt"><A 
+href="/web/20111122054728/http://www.halhigdon.com/index.html"><B><FONT face="Bradley Hand ITC" 
+size=+3>Higdon's Home Page</FONT></B></A> <FONT face="Bradley Hand ITC"><SPAN 
+style="COLOR: blue"><O:P></O:P><O:P></O:P></SPAN></FONT><FONT 
+face="Century Gothic"><SPAN style="COLOR: blue"><O:P></O:P></SPAN></FONT><FONT 
+face="Arial, Helvetica, sans-serif"><SPAN 
+style="COLOR: blue"><O:P></O:P></SPAN></FONT><FONT 
+face="Times New Roman, Times, serif"><SPAN 
+style="COLOR: blue"><O:P></O:P></SPAN></FONT><FONT 
+face="Courier New, Courier, mono"><SPAN 
+style="COLOR: blue"><O:P></O:P></SPAN></FONT><FONT 
+face="Georgia, Times New Roman, Times, serif"><SPAN 
+style="COLOR: blue"><O:P></O:P></SPAN></FONT><FONT 
+face="Verdana, Arial, Helvetica, sans-serif"><SPAN 
+style="COLOR: blue"><O:P></O:P></SPAN></FONT><FONT 
+face="Abadi MT Condensed"><SPAN 
+style="COLOR: blue"><O:P></O:P></SPAN></FONT><FONT 
+face="Abadi MT Condensed Extra Bold"><SPAN 
+style="COLOR: blue"><O:P></O:P></SPAN></FONT><SPAN 
+style="COLOR: blue"><O:P></O:P></SPAN></SPAN></DIV><!-- #EndLibraryItem -->
+<P>&nbsp;</P></CENTER></BODY></HTML>
+
+
+
+
+
+<!--
+     FILE ARCHIVED ON 5:47:28 Nov 22, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 23:19:37 Jan 27, 2014.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
